@@ -1,0 +1,27 @@
+.checkout{
+    flex:0.2;
+    padding:0.8rem;
+    background-color:#e7e9ec;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+.checkout__total{
+    color:#0F1111;
+    font-weight: normal;
+}
+.total_price{
+    font-weight: bold;
+}
+.giftContainer{
+
+}
+
+.checkout__btn{
+height: 2rem;
+border:1px solid rgba(85, 85, 85, 0.541);
+border-radius: 0.3rem;
+background-color:#f0c14b;
+cursor: pointer;
+}

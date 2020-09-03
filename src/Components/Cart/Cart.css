@@ -1,0 +1,11 @@
+.Cart{
+    padding:2rem;
+    background-color: white;
+    
+}
+.CartContainer{
+    display: flex;
+}
+.Carts{
+    flex:0.8
+}

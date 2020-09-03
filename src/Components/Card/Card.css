@@ -1,0 +1,47 @@
+.Card{
+display: flex;
+flex-direction: column;
+background-color: white;
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+justify-content: center;
+align-items: center;
+flex:1;
+margin:0.5rem;
+padding:2rem;
+flex-basis: 20%;
+
+}
+.Card__img{
+ max-width: 20rem;
+ height: 15rem;
+}
+.Card__img img{
+ width: 100%;
+ object-fit: contain;
+}
+
+.Card__name{
+ color:cornflowerblue;
+ font-size:0.6rem ;
+ height: 5rem;
+ overflow: hidden;
+}
+
+.Card__price{
+color:#B12704!important
+}
+
+.Card__rating{
+
+}
+
+.Card__btn{
+    width: 100%;
+}
+.Card__btn button{
+    width: 100%;
+    background-color:#f0c14b;
+    color:black;
+    cursor: pointer;
+    height: 2rem;
+}
